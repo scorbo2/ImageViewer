@@ -17,6 +17,9 @@ OUTPUT_DIR=target
 # Extra memory settings like Xmx and Xms can be specified here:
 JAVAMEM=
 
+# Suppress the unnamed module warning for Java 24+:
+EXTRA_JAVA_ARGS="--enable-native-access=ALL-UNNAMED"
+
 # The application jar file:
 JAR="target/imageviewer-${VERSION}.jar"
 
