@@ -15,20 +15,20 @@ Features:
 An installer tarball is available for linux-based systems. Just download, extract, and run
 the installer script to install the application:
 
-- [http://www.corbett.ca/apps/ImageViewer-3.2.tar.gz](http://www.corbett.ca/apps/ImageViewer-3.2.tar.gz)
+- [http://www.corbett.ca/apps/ImageViewer-3.3.tar.gz](http://www.corbett.ca/apps/ImageViewer-3.3.tar.gz)
 - Size: 20MB
-- SHA-256: `2e6c4b6a770cc8ef56a6125a47f89bc1d7fdf7a678c3c276797019ec26f2bf19`
+- SHA-256: `8fd1e704413e0d58a015472a52f14c6115f68ce448a3fccaa87bbdca610348f6`
 
-Alternatively, you can clone this repo and build it with Maven (Java 17 or higher required):
+Alternatively, you can clone this repo and build it with Maven (Java 25 or higher required):
 
 ```shell
 git clone https://github.com/scorbo2/imageviewer.git
 cd imageviewer
-mvn package
+mvn package # requires Java 25 or higher!
 
 # Run manually:
 cd target
-java -jar imageviewer-3.2.jar
+java -jar imageviewer-3.3.jar
 ```
 
 If you have [install-scripts](https://github.com/scorbo2/install-scripts) installed and you are running the build

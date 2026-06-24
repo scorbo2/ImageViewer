@@ -67,7 +67,7 @@ public class Main {
         // Load saved application config:
         log.info(Version.APPLICATION_NAME + " " + Version.VERSION + " initializing...");
         ImageViewerExtensionManager.getInstance().loadAll();
-        AppConfig.getInstance().load();
+        AppConfig.getInstance().reinitialize(); // NOT load()! Some of our extensions may have messed with AppConfig...
         LookAndFeelManager.switchLaf(AppConfig.getInstance().getLookAndFeelClassname());
 
         // Load and show main window:
