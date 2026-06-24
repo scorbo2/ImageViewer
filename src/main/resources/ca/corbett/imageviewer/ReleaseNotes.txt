@@ -1,6 +1,11 @@
 ImageViewer Release Notes
 Author: Steve Corbett
 
+Version 3.3 [2026-06-22] - Maintenance release
+  #125 - Better initial positioning of LogConsole
+  #124 - Upgrade to swing-extras 3.0 / Java 25 - Windows fixes!
+  #123 - Fix AppConfig property loading problem on startup
+
 Version 3.2 [2026-04-19] - Maintenance release
   #119 - Upgrade to swing-extras 2.9 (minor bug fixes)
 
